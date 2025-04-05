@@ -8,7 +8,8 @@ class CartPage{
 
     }
     async MyCartlist()
-    {
+    {   
+        console.log("this is my cartlist page");
         //await  this.page.pause();
         //this.cartItems= this.page.locator(items);
         //this.checkoutbutton=this.page.locator("text=Checkout");
